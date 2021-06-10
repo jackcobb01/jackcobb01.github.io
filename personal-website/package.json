@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jakcobb01.github.io/personal-website",
+  "homepage": "http://jakcobb01.github.io",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.13.0",
