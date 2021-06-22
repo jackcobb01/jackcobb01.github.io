@@ -1,9 +1,13 @@
+// import statements
 import logo from './logo.svg';
 import './App.css';
+import MainHeader from './components/MainHeader.js';
 
+// this function returns the app
 function App() {
   return (
     <div className="App">
+      <MainHeader />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,4 +26,5 @@ function App() {
   );
 }
 
+// export statement
 export default App;

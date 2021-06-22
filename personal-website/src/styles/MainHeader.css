@@ -1,0 +1,52 @@
+@import "./Theme.css";
+
+.MainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--mustard);
+}
+
+.MainHeader-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 48px;
+}
+
+.headerButton-false {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    height: 100%;
+
+    cursor: pointer;
+
+    color: var(--greyNavy);
+    font-family: var(--generalFontFamily);
+    font-size: 20px;
+}
+
+.headerButton-true {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    height: 100%;
+
+    cursor: pointer;
+
+    background: var(--greyNavy);
+    color: var(--mustard);
+    font-family: var(--generalFontFamily);
+    font-size: 20px;
+}
