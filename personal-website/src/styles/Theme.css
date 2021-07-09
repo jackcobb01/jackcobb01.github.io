@@ -1,8 +1,10 @@
 :root{
     /*Colors:*/
-    --mustard: #f4b41a;
-    --greyNavy: #143d59;
+    --firstTheme: #f4b41a;
+    --secondTheme: #143d59;
+    --thirdTheme: #cc6e20;
     --white: #ffffff;
+    --black: #000000;
 
     /*Font Styling*/
     --generalFontFamily: "Tahoma", "Verdana", "Courier";

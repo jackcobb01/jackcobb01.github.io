@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
 
-    background: var(--mustard);
+    background: var(--firstTheme);
 }
 
 .MainHeader-header {
@@ -29,7 +29,7 @@
 
     cursor: pointer;
 
-    color: var(--greyNavy);
+    color: var(--secondTheme);
     font-family: var(--generalFontFamily);
     font-size: 20px;
 }
@@ -45,8 +45,8 @@
 
     cursor: pointer;
 
-    background: var(--greyNavy);
-    color: var(--mustard);
+    background: var(--secondTheme);
+    color: var(--firstTheme);
     font-family: var(--generalFontFamily);
     font-size: 20px;
 }
