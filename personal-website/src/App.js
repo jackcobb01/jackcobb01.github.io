@@ -4,6 +4,9 @@ import './App.css';
 import React, {useState} from 'react';
 import MainHeader from './components/MainHeader.js';
 import HomePage from './views/HomePage.js';
+import AboutPage from './views/AboutPage.js';
+import ProjectPage from './views/ProjectPage.js';
+import ContactPage from './views/ContactPage.js';
 
 // this function returns the app
 function App() {
@@ -27,21 +30,20 @@ function App() {
         null
       }
       {pageSelection === 1?
-        <div>About</div>
+        <AboutPage />
         :
         null
       }
       {pageSelection === 2?
-        <div>Projects</div>
+        <ProjectPage />
         :
         null
       }
       {pageSelection === 3?
-        <div>Contact</div>
+        <ContactPage />
         :
         null
       }
-
       {/*Given starter code from react- WILL REMOVE*/}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

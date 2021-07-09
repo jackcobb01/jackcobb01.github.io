@@ -1,8 +1,28 @@
 :root{
     /*Colors:*/
+
+    /*theme 3*/
+    /*
     --firstTheme: #f4b41a;
     --secondTheme: #143d59;
     --thirdTheme: #cc6e20;
+    --white: #ffffff;
+    --black: #000000;
+    */
+
+    /*theme 2*/
+    /*
+    --firstTheme: #283350;
+    --thirdTheme: #f93800;
+    --secondTheme: #ffb500;
+    --white: #ffffff;
+    --black: #000000;
+    */
+
+    /*theme 3*/
+    --firstTheme: #283350;
+    --thirdTheme: #f93800;
+    --secondTheme: #cfc88a;
     --white: #ffffff;
     --black: #000000;
 

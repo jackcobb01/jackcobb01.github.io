@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     background: var(--firstTheme);
 }
@@ -49,4 +50,41 @@
     color: var(--firstTheme);
     font-family: var(--generalFontFamily);
     font-size: 20px;
+}
+
+.MainHeader-links {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.MainHeader-linkBar {
+    display: flex;
+
+    width: 10%;
+    height: 1px;
+    margin-top: 10px;
+
+    background: var(--thirdTheme);
+}
+
+.MainHeader-linkPictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 6%;
+    margin-top: 30px;
+}
+
+.MainHeader-github {
+    cursor: pointer;
+}
+
+.MainHeader-linkedin {
+    cursor: pointer;
 }
