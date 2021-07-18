@@ -1,5 +1,6 @@
 // imports
 import React from 'react';
+import Title from '../components/Title.js';
 import '../styles/ProjectPage.css';
 
 // this function returns the main header for the website
@@ -10,15 +11,7 @@ function ProjectPage(props) {
     // return statement
     return (
         <div className="ProjectPage">
-            <div className="ProjectPage-header">
-                <div className="ProjectPage-title">
-                    <div className="ProjectPage-title-overlay">
-                        My Work
-                    </div>
-                    <div className="ProjectPage-title-underlay"></div>
-                </div>
-                <div className="ProjectPage-title-right"></div>
-            </div>
+            <Title titleText="My Work" />
         </div>
     );
   

@@ -1,5 +1,6 @@
 // imports
 import React from 'react';
+import Title from '../components/Title.js';
 import '../styles/HomePage.css';
 
 // this function returns the main header for the website
@@ -10,18 +11,9 @@ function HomePage(props) {
     // return statement
     return (
         <div className="HomePage">
-            <div className="HomePage-header">
-                <div className="HomePage-title">
-                    <div className="HomePage-title-overlay">
-                        Welcome
-                    </div>
-                    <div className="HomePage-title-underlay"></div>
-                </div>
-                <div className="HomePage-title-right"></div>
-            </div>
+            <Title titleText="Welcome" />
         </div>
     );
-  
 }
 
 // export statement
