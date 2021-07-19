@@ -4,6 +4,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     width: 100%;
+}
+
+.PersonalImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.PersonalImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    background: var(--secondTheme);
+
+    border:1px solid var(--firstTheme);
+}
+
+.PersonalPicture {
+    display: flex;
+
+    width: 100%;
+
+    border:1px solid var(--firstTheme);
+}
+
+.PersonalImageDecoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    height: 50px;
+
+    background: var(--firstTheme);
 }
