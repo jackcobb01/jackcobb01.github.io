@@ -1,5 +1,4 @@
 // import statements
-import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
 import MainHeader from './components/MainHeader.js';
@@ -7,6 +6,7 @@ import HomePage from './views/HomePage.js';
 import AboutPage from './views/AboutPage.js';
 import ProjectPage from './views/ProjectPage.js';
 import ContactPage from './views/ContactPage.js';
+import MainFooter from './components/MainFooter.js';
 
 // this function returns the app
 function App() {
@@ -44,21 +44,9 @@ function App() {
         :
         null
       }
-      {/*Given starter code from react- WILL REMOVE*/}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/*Main footer component for the website*/}
+      <MainFooter />
     </div>
   );
 }

@@ -91,3 +91,40 @@
 .MainHeader-linkedin {
     cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+    /* Overrides the above styles on screens smaller than 1200px */
+    
+    .headerButton-false {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    
+        width: 25%;
+        height: 100%;
+    
+        cursor: pointer;
+    
+        color: var(--secondTheme);
+        font-family: var(--generalFontFamily);
+        font-size: 15px;
+    }
+    
+    .headerButton-true {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    
+        width: 25%;
+        height: 100%;
+    
+        cursor: pointer;
+    
+        background: var(--secondTheme);
+        color: var(--firstTheme);
+        font-family: var(--generalFontFamily);
+        font-size: 15px;
+    }
+}

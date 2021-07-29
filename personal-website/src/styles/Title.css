@@ -54,3 +54,30 @@
 
     background: var(--thirdTheme);
 }
+
+@media (max-width: 1200px) {
+    /* Overrides the above styles on screens smaller than 1200px */
+
+    .Title-overlay {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+    
+        width: 100%;
+    
+        background: var(--firstTheme);
+    
+        color: var(--secondTheme);
+        font-family: var(--generalFontFamily);
+        font-size: 40px;
+    }
+
+    .Title-right {
+        display: flex;
+    
+        width: 5px;
+        height: 48px;
+    
+        background: var(--thirdTheme);
+    }
+}
