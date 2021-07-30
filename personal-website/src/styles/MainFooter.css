@@ -20,3 +20,17 @@
     font-family: var(--generalFontFamily);
     font-size: 20px;
 }
+
+@media (max-width: 1200px) {
+    /* Overrides the above styles on screens smaller than 1200px */
+    
+    .MainFooterText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        color: var(--secondTheme);
+        font-family: var(--generalFontFamily);
+        font-size: 15px;
+    }
+}

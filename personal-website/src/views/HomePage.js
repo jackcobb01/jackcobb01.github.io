@@ -1,9 +1,9 @@
 // imports
 import React, {useState, useEffect} from 'react';
 import Title from '../components/Title.js';
-import PersonalPictureOne from '../images/personalPictureOne.png';
-import PersonalPictureTwo from '../images/personalPictureTwo.png';
-import PersonalPictureThree from '../images/personalPictureThree.png';
+import PersonalPictureOne from '../images/personalPictureOne.jpg';
+import PersonalPictureTwo from '../images/personalPictureTwo.jpg';
+import PersonalPictureThree from '../images/personalPictureThree.jpg';
 import '../styles/HomePage.css';
 
 // this function returns the main header for the website
