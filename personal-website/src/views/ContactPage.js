@@ -11,7 +11,7 @@ function ContactPage(props) {
     // return statement
     return (
         <div className="ContactPage">
-            <Title titleText="Contact" />
+            <Title titleText="Contact Me" />
         </div>
     );
   
