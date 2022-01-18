@@ -33,6 +33,7 @@
     color: var(--secondTheme);
     font-family: var(--generalFontFamily);
     font-size: 20px;
+    text-decoration: none;
 }
 
 .headerButton-true {
@@ -50,6 +51,7 @@
     color: var(--firstTheme);
     font-family: var(--generalFontFamily);
     font-size: 20px;
+    text-decoration: none;
 }
 
 .MainHeader-links {
