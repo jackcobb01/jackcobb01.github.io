@@ -36,8 +36,6 @@ function ContactPage(props) {
                     </div>
                     <input className="sendMessageButton" type="submit" value="Send"/>
             </form> 
-
-            <div>{subjectName}</div>
         </div>
     );
   
