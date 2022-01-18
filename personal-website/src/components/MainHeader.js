@@ -52,7 +52,6 @@ function MainHeader(props) {
     return (
         <>
             <div className="MainHeader">
-                {initializeActivatedTab(4)}
                 <div className="MainHeader-header">
                     <Link className={`headerButton-${homeClicked}`} onClick={() => handleHeaderClick(0)} to="/">
                         Home
