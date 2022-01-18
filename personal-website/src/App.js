@@ -1,6 +1,6 @@
 // import statements
 import './App.css';
-import React, {useState} from 'react';
+import React from 'react';
 import MainHeader from './components/MainHeader.js';
 import Router from './Router.js';
 import MainFooter from './components/MainFooter.js';
