@@ -29,6 +29,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+This is the command to run when the changes commited to the GitHub repository need to be deployed to the site.
+
+This will update the remote gh-pages branch on the repository to accomplish the deployment.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
