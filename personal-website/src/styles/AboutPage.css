@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-.CardBox {
+.InterestBox {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@
     border-radius:10px 10px 10px 10px;
 }
 
-.CardBoxTitle {
+.InterestBoxTitle {
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -44,7 +44,7 @@
     margin-bottom: 10px;
 }
 
-.CardBoxTitleName {
+.InterestBoxTitleName {
     display: flex;
     
     width: 100%;
@@ -54,7 +54,7 @@
     font-size: 40px;
 }
 
-.CardBoxTitleDressing {
+.InterestBoxTitleDressing {
     display: flex;
 
     width: 100%;
@@ -62,79 +62,6 @@
     margin-top: 10px;
 
     background: var(--thirdTheme);
-}
-
-.CardBoxBody {
-    display: flex;
-
-    width: 90%;
-    margin-bottom: 10px;
-}
-
-.CrestPicture {
-    display: flex;
-    
-    width: 30%;
-    margin-bottom: 0px;
-
-    object-fit: contain;
-}
-
-.CardDescription {
-    display: flex;
-    flex-direction: column;
-
-    width: 70%;
-    padding-left: 40px;
-}
-
-.CardDegreeCaption {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-
-    width: 100%;
-}
-
-.CardDegreeCaptionText {
-    display: flex;
-
-    margin-left: 20px;
-
-    color: var(--firstTheme);
-    font-family: var(--generalFontFamily);
-    font-style: italic;
-    font-size: 24px;
-    white-space: nowrap;
-}
-
-.CardDescriptionDressing {
-    display: flex;
-
-    width: 100%;
-    height: 1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    background: repeating-linear-gradient(
-        45deg,
-        var(--firstTheme),
-        var(--firstTheme) 5px,
-        var(--fourthTheme) 5px,
-        var(--fourthTheme) 10px
-    );
-}
-
-.CardDescriptionText {
-    display: flex;
-    text-align: left;
-    
-    width: 100%;
-
-    color: var(--firstTheme);
-    font-family: var(--generalFontFamily);
-    font-size: 20px;
 }
 
 .InterestBoxBody {
@@ -173,67 +100,6 @@
 
 @media (max-width: 1200px) {
     /* Overrides the above styles on screens smaller than 1200px */
-
-    .CardBoxBody {
-        display: flex;
-        flex-direction: column;
-    
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .CrestPicture {
-        display: flex;
-        
-        width: 100%;
-        margin-bottom: 20px;
-    
-        object-fit: contain;
-    }
-
-    .CardDescription {
-        display: flex;
-        flex-direction: column;
-    
-        width: 100%;
-        padding-left: 0px;
-    }
-
-    .CardDegreeCaption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    
-        width: 100%;
-    }
-
-    .CardDegreeCaptionText {
-        display: flex;
-    
-        margin-left: 0px;
-    
-        color: var(--firstTheme);
-        font-family: var(--generalFontFamily);
-        font-style: italic;
-        font-size: 24px;
-        white-space: nowrap;
-    }
-
-    .CardDegreeCaptionDressing {
-        display: flex;
-    
-        width: 100%;
-        height: 0px;
-    
-        background: repeating-linear-gradient(
-            45deg,
-            var(--firstTheme),
-            var(--firstTheme) 5px,
-            var(--fourthTheme) 5px,
-            var(--fourthTheme) 10px
-        );
-    }
 
     .InterestBoxBody {
         display: flex;
