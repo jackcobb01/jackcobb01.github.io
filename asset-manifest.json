@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e418ee06.chunk.css",
-    "main.js": "/static/js/main.2ae91dfb.chunk.js",
-    "main.js.map": "/static/js/main.2ae91dfb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.57ec9e01.js",
-    "runtime-main.js.map": "/static/js/runtime-main.57ec9e01.js.map",
+    "main.css": "/static/css/main.f24bd65f.chunk.css",
+    "main.js": "/static/js/main.d6d378c7.chunk.js",
+    "main.js.map": "/static/js/main.d6d378c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ae0f7cef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ae0f7cef.js.map",
     "static/js/2.65d266c0.chunk.js": "/static/js/2.65d266c0.chunk.js",
     "static/js/2.65d266c0.chunk.js.map": "/static/js/2.65d266c0.chunk.js.map",
-    "static/js/3.d059dfcc.chunk.js": "/static/js/3.d059dfcc.chunk.js",
-    "static/js/3.d059dfcc.chunk.js.map": "/static/js/3.d059dfcc.chunk.js.map",
+    "static/js/3.a0f5f62f.chunk.js": "/static/js/3.a0f5f62f.chunk.js",
+    "static/js/3.a0f5f62f.chunk.js.map": "/static/js/3.a0f5f62f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e418ee06.chunk.css.map": "/static/css/main.e418ee06.chunk.css.map",
+    "static/css/main.f24bd65f.chunk.css.map": "/static/css/main.f24bd65f.chunk.css.map",
     "static/js/2.65d266c0.chunk.js.LICENSE.txt": "/static/js/2.65d266c0.chunk.js.LICENSE.txt",
     "static/media/applebyCollegeCrest.24bc12b7.png": "/static/media/applebyCollegeCrest.24bc12b7.png",
     "static/media/interestPictureOne.f0d1b6eb.jpeg": "/static/media/interestPictureOne.f0d1b6eb.jpeg",
@@ -22,9 +22,9 @@
     "static/media/universityWaterlooCrest.4c8baa43.png": "/static/media/universityWaterlooCrest.4c8baa43.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.57ec9e01.js",
+    "static/js/runtime-main.ae0f7cef.js",
     "static/js/2.65d266c0.chunk.js",
-    "static/css/main.e418ee06.chunk.css",
-    "static/js/main.2ae91dfb.chunk.js"
+    "static/css/main.f24bd65f.chunk.css",
+    "static/js/main.d6d378c7.chunk.js"
   ]
 }
