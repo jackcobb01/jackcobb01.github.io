@@ -53,7 +53,7 @@ function HomePage(props) {
                 }
                 <div className="PersonalCaptionContainer">
                     <div className="PersonalCaptionDressing" />
-                    <div className="PersonalCaption">Hello everyone and welcome to my website! I'm Jack, a third year computer science student at the University of Waterloo. Please take your time to learn about my work and my projects. If you have any questions, feel free to contact me.</div>
+                    <div className="PersonalCaption">Hello everyone and welcome to my website! I'm Jack, a fourth year computer science student at the University of Waterloo. Please take your time to learn about my work and my projects. If you have any questions, feel free to contact me.</div>
                     <div className="PersonalCaptionDressing" />
                 </div>
             </div>   
